@@ -20,16 +20,18 @@ class Student{
         System.out.println("Constructor called");
     }
     
-    Student(String name,int age){    //parametrized constructor
+    Student(String name,int age){                    //parametrized constructor
+        System.out.println("Parametrized constructor called");
         this.name=name;
         this.age=age;
     }
-    Student(Student s2){         //copy constructor
+    Student(Student s2){                            //copy constructor
+        System.out.println("Copy constructor called");
         this.name=s2.name;
         this.age=s2.age;
     }
     
-    public void printname(){
+    public void print(){
         System.out.println(this.name);
         System.out.println(this.age);
     }
@@ -37,7 +39,7 @@ class Student{
 
 public class OOPS{
     public static void main(String args[]){
-        Pen p1=new Pen();   //new keyword allocates a new memory for object
+        Pen p1=new Pen();                 //new keyword allocates a new memory for object
         p1.color="blue";
         p1.type="gel";
         
@@ -54,13 +56,14 @@ public class OOPS{
         // Student s1=new Student("aman",22);
         // s1.name="Amit";
         // s1.age=22;
+        //s1.print();
         
         Student s1=new Student();
         s1.name="Rahul";
         s1.age=23;
         
         Student s2=new Student(s1);
-        s2.printname();
+        s2.print();
         
         
     }
