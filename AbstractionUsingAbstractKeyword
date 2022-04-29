@@ -1,0 +1,45 @@
+//Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+//class which is declared with abstract keyword is called abstract class
+//first the constructor of base class automatically gets called then of derived class
+//abstract class cannot have its objects
+
+
+abstract class Animal{
+    abstract void walk();
+    Animal(){
+        System.out.println("Animal class called");
+    }
+    public void eat(){
+        System.out.println("Animal eat");
+    }
+}
+
+class Horse extends Animal{
+    Horse(){
+        System.out.println("Horse class called");
+    }
+    public void walk(){
+        System.out.println("Walks on 4 legs");
+    }
+}
+
+class Chiken extends Animal{
+    public void walk(){
+        System.out.println("Walks on 2 legs");
+    }
+}
+
+public class Abstraction{
+    public static void main(String args[]){
+        Horse h1=new Horse();
+        h1.walk();
+        h1.eat();
+        
+        Chiken c1=new Chiken();
+        c1.walk();
+        
+        
+        // Animal a1=new Animal();
+        // a1.walk();             //error
+}
+}
