@@ -1,3 +1,6 @@
+//polymorphism means having many forms.Here we are seeing an example of function overloading.
+//It means many functions with same name but with diff arguments,diff return type or diff sequence of arguments
+
 class Student{
     String name;
     int age;
@@ -5,9 +8,11 @@ class Student{
     public void print(String name){    
         System.out.println(name);
     }
+    
     public void print(int age){
         System.out.println(age);
     }
+    
     public void print(String name,int age){
         System.out.println(name + " "+ age);
     }
