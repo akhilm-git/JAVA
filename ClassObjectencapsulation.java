@@ -1,7 +1,9 @@
 //class is a user defined datatype which has its own data members and member functions
 //object is an instance of a class
+//Encapsulation means wrapping up of data members and member functions in a single unit(class)
 //copy constructor initializes objects using another object
-class Pen{    //class 1
+
+class Pen{                //class 1
     String color;
     String type;
     
@@ -15,7 +17,7 @@ class Pen{    //class 1
     }
 }
 
-class Student{   //class 2
+class Student{       //class 2
     String name;
     int age;
     
