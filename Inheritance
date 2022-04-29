@@ -1,9 +1,14 @@
-class Shape{
+//Inheritance is the property by which a class can inherit the properties of another class
+//there are 4 types of inheritance supported by JAVA which are single,multiple,multilevel and hybrid inheritance
+//class whose properties are inherited is called parent/base class 
+//class who inherits properties is called derived/child class
+
+class Shape{                        //base class
     public void area(){
         System.out.println("Display area");
     }
 }
-class Triangle extends Shape{
+class Triangle extends Shape{      //child class
     public void area(int b,int h){
         System.out.println(1/2*b*h);
     }
