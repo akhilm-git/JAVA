@@ -1,4 +1,7 @@
-class Pen{
+//class is a user defined datatype which has its own data members and member functions
+//object is an instance of a class
+//copy constructor initializes objects using another object
+class Pen{    //class 1
     String color;
     String type;
     
@@ -12,7 +15,7 @@ class Pen{
     }
 }
 
-class Student{
+class Student{   //class 2
     String name;
     int age;
     
@@ -62,7 +65,7 @@ public class OOPS{
         s1.name="Rahul";
         s1.age=23;
         
-        Student s2=new Student(s1);
+        Student s2=new Student(s1);   //copy constructor called
         s2.print();
         
         
