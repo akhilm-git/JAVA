@@ -1,5 +1,6 @@
-//arrays are non primitive data types used to store elements of same data type in contiguous memory allocation
-// Syntax to declare array- datatype[] arrayname=new datatype[size]
+//Arrays are non primitive data types used to store elements of same data type in contiguous memory allocation
+//Syntax to declare array- datatype[] arrayname=new datatype[size]
+
 import java.util.Arrays;
 
 public class Main {
