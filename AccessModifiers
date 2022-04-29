@@ -1,9 +1,15 @@
+//access specifier are the keywords which help in data hiding i.e. Abstraction
+//In java there are 4 access specifiers which are Public,private.protected and default
+//Data Members declared as public can be accessed throughout the program 
+//Data Members declared as private can be accessed from only within the scope of that class in which it is declared
+//Data Members declared as protected can be accessed within the scope of that class in which it is declared and also by the child class
+
 class Account{
     public String name;
     protected String email;
     private String password;
     
-    //getter & setter
+    //getter & setter are functions used to initialize private data members 
     
     public String getpassword(){
         return this.password;
