@@ -1,3 +1,5 @@
+//Here a random number is generated in the program and the user has to find what that random number is by guessing
+
 import java.util.Scanner;
 
 public class Main{
