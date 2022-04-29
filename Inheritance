@@ -1,5 +1,5 @@
 //Inheritance is the property by which a class can inherit the properties of another class
-//there are 4 types of inheritance supported by JAVA which are single,multiple,multilevel and hybrid inheritance
+//there are 4 types of inheritance supported by JAVA which are single,multilevel,hybrid and hierarichal inheritance
 //class whose properties are inherited is called parent/base class 
 //class who inherits properties is called derived/child class
 
