@@ -1,0 +1,30 @@
+public class CWH_foreach {
+    public static void main(String[] args) {
+        int[] marks={23,45,74,69,51};
+        for (int mark : marks) {
+            System.out.print(mark+" ");
+
+        }
+        
+        System.out.println();
+
+        char[] name={'a','e','i','o','u'};
+        for(char a:name){
+            System.out.print(a+" ");
+        }
+        
+        System.out.println();
+
+        String[] num={"one","two","three","four"};
+        for(String count:num){
+            System.out.print(count+" ");
+        }
+        
+        System.out.println();
+
+        float[] no={2.12f,52.4f,547f,874f};
+        for(float number:no){
+            System.out.print(number);
+        }
+    }
+}
