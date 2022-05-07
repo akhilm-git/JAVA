@@ -1,0 +1,31 @@
+class MyThread1 extends Thread{
+    @Override
+    public void run(){
+        int i=1;
+      while(i<=200){
+          System.out.println("JAVA is better");
+          System.out.println("Love to code in JAVA");
+          i++;
+      }
+    }
+}
+
+class MyThread2 extends Thread{
+    @Override
+    public void run(){
+        int i=1;
+        while(i<=200){
+            System.out.println("C++ is better");
+            System.out.println("Love to code in C++");
+            i++;
+        }
+    }
+}
+public class CWH_JavaThreadUsingthreadClass {
+    public static void main(String[] args) {
+        MyThread1 t1=new MyThread1();
+        MyThread2 t2=new MyThread2();
+        t1.start();                 //causes particular thread to begin execution
+        t2.start();
+    }
+}
