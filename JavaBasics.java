@@ -80,5 +80,14 @@ public class Main {
         float pi=3.14F;
         char letter='@';
         boolean isAdult=false;
+        
+        //type casting which means converting from one datatype to another
+        double price=100.0;
+        double finalprice=18+price;   //double capacity more than int(implicit casting)
+        System.out.println(finalprice);
+
+        int p=100;
+        int finalP=p+(int)18.11;   //int has less capacity than double(explicit casting)
+        System.out.println(finalP);
     }
 }
