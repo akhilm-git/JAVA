@@ -22,13 +22,6 @@ public class Main {
         int [][] finalmarks={{22,21,25},{32,34,35}};  //2-D array also called matrix.It stores data in rows and columns
         System.out.println(finalmarks[1][1]);
 
-        //type casting which means converting from one datatype to another
-        double price=100.0;
-        double finalprice=18+price;   //double capacity more than int(implicit casting)
-        System.out.println(finalprice);
-
-        int p=100;
-        int finalP=p+(int)18.11;   //int has less capacity than double(explicit casting)
-        System.out.println(finalP);
+        
     }
 }
