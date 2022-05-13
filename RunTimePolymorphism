@@ -18,7 +18,7 @@ public class FunctionOverriding{
         Animal a1=new Animal();
         a1.eat();
         
-        Animal a2=new Dog();
+        Animal a2=new Dog();   //holding obj of child class during runtime
         a2.eat();
     }
 }
